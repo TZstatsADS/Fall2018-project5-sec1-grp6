@@ -10,9 +10,8 @@ Term: Fall 2018
 	+ team member 3
 	+ team member 4
 	
-+ Project summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	
-**Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
++ Project summary: In this project, the objective is to optimize the predictive ability with the low computational expense. The dataset is a public Kaggle financial loan data. In order to check the improvements, I decided to utilize a logistice regression as the baseline model. However, becasue of the classification output, the logistice model is also a popular way to make a reliable prediction, especially with more parameters. In addition to the prediction part, the variable selection is essential to build a model. With the business understanding and statistical methods, 28 variables were chosen including dependent variable. The criteria is to achieve both high accuracuy and recall so that the loan is likely to be paid in full, when reviewing loan applications. 
+**Contribution statement**: ([default](doc/a_note_on_contributions.md)) Yanchen Chen
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
