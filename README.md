@@ -3,7 +3,7 @@
 Term: Fall 2018
 
 + Team 6
-+ Projec title: Lorem ipsum dolor sit amet
++ Projec title: Statistical Method in Reviewing Loan Applications
 + Team members
 	+ team member 1 Yanchen Chen
 	+ team member 2
