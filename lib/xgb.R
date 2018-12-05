@@ -66,7 +66,8 @@ cf <- function(L3, L3train, L3test, from, to, by){
   pred <- predict(fit, data.matrix(subset(L3test, select = -c(loan_status))))
   pred <- ifelse(pred >= .5, 1, 0 )
   acc[i] <- mean(as.factor(pred) == tet)
-  rec[i] <- caret::sensitivity(as.factor(pred), tet, positive="1")
+  conf <- table(pred, L3test$loan_status)
+  rec[i] <- conf[2,2]/(conf[1,2] + conf[2,2])
    data.frame(itera[i], acc[i], rec[i])
   
 
@@ -78,7 +79,6 @@ cf <- function(L3, L3train, L3test, from, to, by){
 
 
 
-```{r}
 para3 <- expand.grid(max_depth = c(8,9,10), eta = c(0.3,0.4,0.2), min_child_weight = c(10,9,8), gamma = c(0,1,5,10)) 
 names(para3) <- c("depth", "eta", "min_child_weight","gamma")
 
@@ -115,7 +115,7 @@ L_ite
 
 library(ggplot2)
 library(tidyr)
-
+par(mfrow=c(2,2))
 L3_data <-
   data.frame(
     Accuracy3 = L3_ite[,2],
