@@ -1,7 +1,7 @@
 # ADS Project 5: 
 
 Term: Fall 2018
-https://github.com/jscmp4/CIFAR-10-CNN-for-proj5-5243-sec1
++ https://github.com/jscmp4/CIFAR-10-CNN-for-proj5-5243-sec1
 + Team 6
 + Projec title:  Machine Learning in Reviewing Loan Applications
 + Team members
